@@ -1,0 +1,20 @@
+{
+  "name": "donai",
+  "version": "1.0.0",
+  "description": "Discord AI Bot",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "keywords": [],
+  "author": "Nutu Luca",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "@google/generative-ai": "^0.24.1",
+    "discord.js": "^14.26.4",
+    "dotenv": "^17.4.2",
+    "groq-sdk": "^1.2.1",
+    "openai": "^6.42.0"
+  }
+}
